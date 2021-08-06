@@ -1,0 +1,9 @@
+$colorTitulos: #A3654E;
+$colorVerde: #5D6B61;
+$colorClaro: #f1eae4;
+$tamanioTitulo: 40px;
+
+@mixin tamanioImagen ($altoImagen, $anchoImagen) { 
+    height: $altoImagen;
+    width: $anchoImagen;
+}
